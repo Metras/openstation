@@ -1,0 +1,1434 @@
+2012-01-20 14:09:47.6187|DEBUG|OpenStation.MainForm.Form_Load|************************Starting OpenPlayout ************************
+2012-01-20 14:09:47.9818|DEBUG|OpenStation.MainForm.Form_Load|Initializing BASS
+2012-01-20 14:09:48.1318|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, buffer = 200
+2012-01-20 14:09:48.1318|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, updateperiod = 20
+2012-01-20 14:09:48.1318|DEBUG|OpenStation.MainForm.Form_Load|Bass StreamCreate: Sample rate 44100, 2 channels, 32bit floating point output
+2012-01-20 14:09:48.1698|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelSetSync (setting a synchronizer): default mixer, Sync on stall, default user instance
+2012-01-20 14:09:48.1698|DEBUG|OpenStation.MainForm.Form_Load|timerUpdate started
+2012-01-20 14:09:48.1698|DEBUG|OpenStation.MainForm.Form_Load|EditorTimer started
+2012-01-20 14:09:48.1698|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelPlay started, don't restart playback from beginning
+2012-01-20 14:09:48.2668|DEBUG|OpenStation.MainForm.Form_Load|Load song library from songs.xml
+2012-01-20 14:09:48.3268|DEBUG|OpenStation.MainForm.LoadTodaySchedule|Loading Today Schedule
+2012-01-20 14:09:48.3508|DEBUG|OpenStation.MainForm.LoadSchedule|Loading schedule for 20/01/2012 00:00:00 from file \Schedules\20120120.log
+2012-01-20 14:09:48.7778|DEBUG|OpenStation.MainForm.LoadSchedule|Schedule for 20/01/2012 00:00:00 loaded successfully
+2012-01-20 14:09:48.7778|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Loading next 2 events to play from current schedule at current time
+2012-01-20 14:09:48.7778|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem OpenStation.OpenStationDS+ScheduleRow to Player
+2012-01-20 14:09:48.7778|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 14:09:48.8279|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 14:09:48.8279|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2196~Onda Geox jingle 06 [00:00:06]to player playlist
+2012-01-20 14:09:48.8279|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 14:09:48.8279|DEBUG|OpenStation.MainForm.AddToPlayer|Calling SetTrackCuePoints on a separate thread - It detects start and end of current track
+2012-01-20 14:09:48.8279|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2196~Onda Geox jingle 06.mp3
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177275
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem OpenStation.OpenStationDS+ScheduleRow to Player
+2012-01-20 14:09:49.0739|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 14:09:49.2659|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 14:09:49.2659|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 1580~All For You [00:03:54]to player playlist
+2012-01-20 14:09:49.2659|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 14:09:49.2659|DEBUG|OpenStation.MainForm.AddToPlayer|Calling SetTrackCuePoints on a separate thread - It detects start and end of current track
+2012-01-20 14:09:49.2659|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\1\1580~All For You.mp3
+2012-01-20 14:09:50.6270|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (21168)
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (81493272)
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177270
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Start player
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.StartPlayer|Current track is null
+2012-01-20 14:09:50.6370|DEBUG|OpenStation.MainForm.StartPlayer|Calling PlayTrack...
+2012-01-20 14:09:50.6490|DEBUG|OpenStation.MainForm.PlayTrack|Locking playlist
+2012-01-20 14:09:50.6490|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 14:09:50.6490|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2196~Onda Geox jingle 06 - 
+2012-01-20 14:09:50.6490|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 14:09:50.6490|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=474)
+2012-01-20 14:09:50.6490|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Green background
+2012-01-20 14:09:50.6490|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row All For You to Yellow background
+2012-01-20 14:09:50.6490|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 14:09:50.6490|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=472 }
+2012-01-20 14:09:50.6490|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 14:09:50.7030|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 14:09:50.7030|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 14:09:50.7030|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 14:09:50.7030|DEBUG|OpenStation.MainForm.AddToPlayer|Calling SetTrackCuePoints on a separate thread - It detects start and end of current track
+2012-01-20 14:09:50.7030|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 14:09:50.7460|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177265
+2012-01-20 14:09:50.7580|DEBUG|OpenStation.MainForm.PlayTrack|Calling GetWaveForm - Getting the waveform for current track
+2012-01-20 14:09:50.7580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2196~Onda Geox jingle 06
+2012-01-20 14:09:50.7580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 14:09:50.7580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2196~Onda Geox jingle 06
+2012-01-20 14:09:50.7580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 91728
+2012-01-20 14:09:50.7580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 1615824
+2012-01-20 14:09:50.7580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 14:09:50.8331|DEBUG|OpenStation.MainForm.InitializeCrons|Creating trigger for AddNextDaySchedule
+2012-01-20 14:09:50.8541|DEBUG|OpenStation.MainForm.InitializeCrons|Created trigger: ComLib.Scheduling.Trigger
+2012-01-20 14:09:50.8541|DEBUG|OpenStation.MainForm.InitializeCrons|Task summary: ComLib.Scheduling.TaskSummary
+2012-01-20 14:09:50.8541|DEBUG|OpenStation.MainForm.InitializeCrons|Check if scheduler is started: True
+2012-01-20 14:09:50.8541|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Mixer stalled
+2012-01-20 14:09:50.8541|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Stopping timerUpdate
+2012-01-20 14:09:50.8541|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Stopping EditorTimer
+2012-01-20 14:09:50.8671|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Setting progress Bars to 0
+2012-01-20 14:09:50.8671|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Mixer resumed
+2012-01-20 14:09:50.8671|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Re-starting timerUpdate
+2012-01-20 14:09:50.8671|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Re-starting EditorTimer
+2012-01-20 14:09:50.9961|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2196~Onda Geox jingle 06 - Playback position: 00:00:00
+2012-01-20 14:09:52.2232|DEBUG|OpenStation.MainForm.Simple_Closing|Closing Bass
+2012-01-20 14:09:52.2502|DEBUG|OpenStation.MainForm.MainForm_FormClosing|Quitting OpenPlayout
+2012-01-20 15:01:43.2713|DEBUG|OpenStation.MainForm.Form_Load|************************Starting OpenPlayout ************************
+2012-01-20 15:01:43.2903|DEBUG|OpenStation.MainForm.Form_Load|Initializing BASS
+2012-01-20 15:01:43.3753|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, buffer = 200
+2012-01-20 15:01:43.3753|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, updateperiod = 20
+2012-01-20 15:01:43.3803|DEBUG|OpenStation.MainForm.Form_Load|Bass StreamCreate: Sample rate 44100, 2 channels, 32bit floating point output
+2012-01-20 15:01:43.3803|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelSetSync (setting a synchronizer): default mixer, Sync on stall, default user instance
+2012-01-20 15:01:43.3803|DEBUG|OpenStation.MainForm.Form_Load|timerUpdate started
+2012-01-20 15:01:43.3803|DEBUG|OpenStation.MainForm.Form_Load|EditorTimer started
+2012-01-20 15:01:43.3943|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelPlay started, don't restart playback from beginning
+2012-01-20 15:01:43.3943|DEBUG|OpenStation.MainForm.Form_Load|Load song library from songs.xml
+2012-01-20 15:01:43.3943|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running TrackCuePointQueue check on separate thread...
+2012-01-20 15:01:43.4233|DEBUG|OpenStation.MainForm.LoadTodaySchedule|Loading Today Schedule
+2012-01-20 15:01:43.4473|DEBUG|OpenStation.MainForm.LoadSchedule|Loading schedule for 20/01/2012 00:00:00 from file \Schedules\20120120.log
+2012-01-20 15:01:43.7563|DEBUG|OpenStation.MainForm.LoadSchedule|Schedule for 20/01/2012 00:00:00 loaded successfully
+2012-01-20 15:01:43.7563|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Loading next 2 events to play from current schedule at current time
+2012-01-20 15:01:43.7563|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem OpenStation.OpenStationDS+ScheduleRow to Player
+2012-01-20 15:01:43.7563|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 15:01:43.8063|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 15:01:43.8063|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 15:01:43.8063|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 15:01:43.8063|DEBUG|OpenStation.MainForm.AddToPlayer|Adding 2197~Onda Geox jingle 07 [00:00:06] to TrackCuePointQueue to get its cue points
+2012-01-20 15:01:43.8063|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem OpenStation.OpenStationDS+ScheduleRow to Player
+2012-01-20 15:01:43.8063|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|TrackCuePointQueue contains 1 elements.
+2012-01-20 15:01:43.8063|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 15:01:43.8063|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SetTrackCuePoints on 2197~Onda Geox jingle 07
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.AddToPlayer|Adding 2197~Onda Geox jingle 07 [00:00:06] to TrackCuePointQueue to get its cue points
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Start player
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.StartPlayer|Current track is null
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.StartPlayer|Calling PlayTrack...
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.PlayTrack|Locking playlist
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 15:01:43.8163|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2197~Onda Geox jingle 07 - 
+2012-01-20 15:01:43.8313|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 15:01:45.6105|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2197~Onda Geox jingle 07
+2012-01-20 15:01:48.6878|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 15:01:48.6988|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 15:01:48.7548|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 15:01:48.7628|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 15:01:49.2189|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 15:01:49.2189|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 15:01:49.6419|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 15:01:49.6629|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 15:02:10.1040|DEBUG|OpenStation.MainForm.Form_Load|************************Starting OpenPlayout ************************
+2012-01-20 15:02:10.1220|DEBUG|OpenStation.MainForm.Form_Load|Initializing BASS
+2012-01-20 15:02:10.1920|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, buffer = 200
+2012-01-20 15:02:10.1920|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, updateperiod = 20
+2012-01-20 15:02:10.1970|DEBUG|OpenStation.MainForm.Form_Load|Bass StreamCreate: Sample rate 44100, 2 channels, 32bit floating point output
+2012-01-20 15:02:10.1970|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelSetSync (setting a synchronizer): default mixer, Sync on stall, default user instance
+2012-01-20 15:02:10.1970|DEBUG|OpenStation.MainForm.Form_Load|timerUpdate started
+2012-01-20 15:02:10.2190|DEBUG|OpenStation.MainForm.Form_Load|EditorTimer started
+2012-01-20 15:02:10.2190|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelPlay started, don't restart playback from beginning
+2012-01-20 15:02:10.2190|DEBUG|OpenStation.MainForm.Form_Load|Load song library from songs.xml
+2012-01-20 15:02:10.2540|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running TrackCuePointQueue check on separate thread...
+2012-01-20 15:02:10.2730|DEBUG|OpenStation.MainForm.LoadTodaySchedule|Loading Today Schedule
+2012-01-20 15:02:10.2990|DEBUG|OpenStation.MainForm.LoadSchedule|Loading schedule for 20/01/2012 00:00:00 from file \Schedules\20120120.log
+2012-01-20 15:02:10.6120|DEBUG|OpenStation.MainForm.LoadSchedule|Schedule for 20/01/2012 00:00:00 loaded successfully
+2012-01-20 15:02:10.6120|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Loading next 2 events to play from current schedule at current time
+2012-01-20 15:02:10.6120|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem OpenStation.OpenStationDS+ScheduleRow to Player
+2012-01-20 15:02:10.6180|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 15:02:10.6350|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 15:02:10.6350|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 15:02:10.6350|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 15:02:10.6350|DEBUG|OpenStation.MainForm.AddToPlayer|Adding 2197~Onda Geox jingle 07 [00:00:06] to TrackCuePointQueue to get its cue points
+2012-01-20 15:02:10.6350|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem OpenStation.OpenStationDS+ScheduleRow to Player
+2012-01-20 15:02:10.6350|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|TrackCuePointQueue contains 1 elements.
+2012-01-20 15:02:10.6350|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 15:02:10.6350|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SetTrackCuePoints on 2197~Onda Geox jingle 07
+2012-01-20 15:02:10.6350|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 15:02:10.6520|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 15:02:10.6520|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 15:02:10.6520|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 15:02:10.6520|DEBUG|OpenStation.MainForm.AddToPlayer|Adding 2197~Onda Geox jingle 07 [00:00:06] to TrackCuePointQueue to get its cue points
+2012-01-20 15:02:10.6520|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Start player
+2012-01-20 15:02:10.6520|DEBUG|OpenStation.MainForm.StartPlayer|Current track is null
+2012-01-20 15:02:10.6520|DEBUG|OpenStation.MainForm.StartPlayer|Calling PlayTrack...
+2012-01-20 15:02:10.6520|DEBUG|OpenStation.MainForm.PlayTrack|Locking playlist
+2012-01-20 15:02:10.6520|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 15:02:10.6660|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2197~Onda Geox jingle 07 - 
+2012-01-20 15:02:10.6660|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 15:02:12.9332|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2197~Onda Geox jingle 07
+2012-01-20 15:05:21.1361|DEBUG|OpenStation.MainForm.Form_Load|************************Starting OpenPlayout ************************
+2012-01-20 15:05:21.1541|DEBUG|OpenStation.MainForm.Form_Load|Initializing BASS
+2012-01-20 15:05:21.2221|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, buffer = 200
+2012-01-20 15:05:21.2221|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, updateperiod = 20
+2012-01-20 15:05:21.2281|DEBUG|OpenStation.MainForm.Form_Load|Bass StreamCreate: Sample rate 44100, 2 channels, 32bit floating point output
+2012-01-20 15:05:21.2281|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelSetSync (setting a synchronizer): default mixer, Sync on stall, default user instance
+2012-01-20 15:05:21.2281|DEBUG|OpenStation.MainForm.Form_Load|timerUpdate started
+2012-01-20 15:05:21.2281|DEBUG|OpenStation.MainForm.Form_Load|EditorTimer started
+2012-01-20 15:05:21.2451|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelPlay started, don't restart playback from beginning
+2012-01-20 15:05:21.2451|DEBUG|OpenStation.MainForm.Form_Load|Load song library from songs.xml
+2012-01-20 15:05:21.2451|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running TrackCuePointQueue check on separate thread...
+2012-01-20 15:05:21.2731|DEBUG|OpenStation.MainForm.LoadTodaySchedule|Loading Today Schedule
+2012-01-20 15:05:21.3001|DEBUG|OpenStation.MainForm.LoadSchedule|Loading schedule for 20/01/2012 00:00:00 from file \Schedules\20120120.log
+2012-01-20 15:05:21.6081|DEBUG|OpenStation.MainForm.LoadSchedule|Schedule for 20/01/2012 00:00:00 loaded successfully
+2012-01-20 15:05:21.6081|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Loading next 2 events to play from current schedule at current time
+2012-01-20 15:05:21.6081|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem OpenStation.OpenStationDS+ScheduleRow to Player
+2012-01-20 15:05:21.6081|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 15:05:21.7011|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 15:05:21.7011|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2196~Onda Geox jingle 06 [00:00:06]to player playlist
+2012-01-20 15:05:21.7011|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 15:05:21.7011|DEBUG|OpenStation.MainForm.AddToPlayer|Adding 2196~Onda Geox jingle 06 [00:00:06] to TrackCuePointQueue to get its cue points
+2012-01-20 15:05:21.7011|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem OpenStation.OpenStationDS+ScheduleRow to Player
+2012-01-20 15:05:21.7011|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|TrackCuePointQueue contains 1 elements.
+2012-01-20 15:05:21.7011|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SetTrackCuePoints on 2196~Onda Geox jingle 06
+2012-01-20 15:05:21.7011|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 15:05:21.7011|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2196~Onda Geox jingle 06.mp3
+2012-01-20 15:05:21.7671|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 15:05:21.7671|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 15:05:21.7671|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 15:05:21.7741|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 15:05:21.7741|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 15:05:21.7741|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 15:05:21.7741|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 15:05:21.7741|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 15:05:21.7741|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 15:05:21.7741|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 15:05:21.7741|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 15:05:21.7741|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SyncTrackWithMixer on 2196~Onda Geox jingle 06
+2012-01-20 15:05:21.7901|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 15:05:21.7901|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177275
+2012-01-20 15:05:21.9421|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 15:05:21.9421|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 204~01 Romantic [00:04:06]to player playlist
+2012-01-20 15:05:21.9421|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 15:05:21.9421|DEBUG|OpenStation.MainForm.AddToPlayer|Adding 204~01 Romantic [00:04:06] to TrackCuePointQueue to get its cue points
+2012-01-20 15:05:21.9461|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Start player
+2012-01-20 15:05:21.9461|DEBUG|OpenStation.MainForm.StartPlayer|Current track is null
+2012-01-20 15:05:21.9461|DEBUG|OpenStation.MainForm.StartPlayer|Calling PlayTrack...
+2012-01-20 15:05:21.9461|DEBUG|OpenStation.MainForm.PlayTrack|Locking playlist
+2012-01-20 15:05:21.9461|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 15:05:21.9461|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|TrackCuePointQueue contains 1 elements.
+2012-01-20 15:05:21.9461|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SetTrackCuePoints on 204~01 Romantic
+2012-01-20 15:05:21.9461|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2196~Onda Geox jingle 06 - 
+2012-01-20 15:05:21.9461|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\0\204~01 Romantic.mp3
+2012-01-20 15:05:21.9461|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2196~Onda Geox jingle 06 [00:00:06]
+2012-01-20 15:05:27.0256|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2196~Onda Geox jingle 06 [00:00:06]
+2012-01-20 15:05:28.1638|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306360 Channel = -1342177275 Data = 0 User = 1
+2012-01-20 15:05:28.1638|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 15:05:29.7899|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 15:05:35.0114|DEBUG|OpenStation.MainForm.Form_Load|************************Starting OpenPlayout ************************
+2012-01-20 15:05:35.0344|DEBUG|OpenStation.MainForm.Form_Load|Initializing BASS
+2012-01-20 15:05:35.0985|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, buffer = 200
+2012-01-20 15:05:35.0985|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, updateperiod = 20
+2012-01-20 15:05:35.0985|DEBUG|OpenStation.MainForm.Form_Load|Bass StreamCreate: Sample rate 44100, 2 channels, 32bit floating point output
+2012-01-20 15:05:35.1155|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelSetSync (setting a synchronizer): default mixer, Sync on stall, default user instance
+2012-01-20 15:05:35.1155|DEBUG|OpenStation.MainForm.Form_Load|timerUpdate started
+2012-01-20 15:05:35.1155|DEBUG|OpenStation.MainForm.Form_Load|EditorTimer started
+2012-01-20 15:05:35.1155|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelPlay started, don't restart playback from beginning
+2012-01-20 15:05:35.1155|DEBUG|OpenStation.MainForm.Form_Load|Load song library from songs.xml
+2012-01-20 15:05:35.1325|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running TrackCuePointQueue check on separate thread...
+2012-01-20 15:05:35.1495|DEBUG|OpenStation.MainForm.LoadTodaySchedule|Loading Today Schedule
+2012-01-20 15:05:35.1765|DEBUG|OpenStation.MainForm.LoadSchedule|Loading schedule for 20/01/2012 00:00:00 from file \Schedules\20120120.log
+2012-01-20 15:05:35.4895|DEBUG|OpenStation.MainForm.LoadSchedule|Schedule for 20/01/2012 00:00:00 loaded successfully
+2012-01-20 15:05:35.4895|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Loading next 2 events to play from current schedule at current time
+2012-01-20 15:05:35.4895|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem OpenStation.OpenStationDS+ScheduleRow to Player
+2012-01-20 15:05:35.4895|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 15:05:35.5115|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 15:05:35.5115|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2196~Onda Geox jingle 06 [00:00:06]to player playlist
+2012-01-20 15:05:35.5115|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 15:05:35.5115|DEBUG|OpenStation.MainForm.AddToPlayer|Adding 2196~Onda Geox jingle 06 [00:00:06] to TrackCuePointQueue to get its cue points
+2012-01-20 15:05:35.5115|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem OpenStation.OpenStationDS+ScheduleRow to Player
+2012-01-20 15:05:35.5115|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|TrackCuePointQueue contains 1 elements.
+2012-01-20 15:05:35.5185|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 15:05:35.5185|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SetTrackCuePoints on 2196~Onda Geox jingle 06
+2012-01-20 15:05:35.5185|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2196~Onda Geox jingle 06.mp3
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 204~01 Romantic [00:04:06]to player playlist
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.AddToPlayer|Adding 204~01 Romantic [00:04:06] to TrackCuePointQueue to get its cue points
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Start player
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.StartPlayer|Current track is null
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.StartPlayer|Calling PlayTrack...
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.PlayTrack|Locking playlist
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2196~Onda Geox jingle 06 - 
+2012-01-20 15:05:35.5545|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2196~Onda Geox jingle 06 [00:00:06]
+2012-01-20 15:05:35.5655|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Waveform not found for current Track 2196~Onda Geox jingle 06 [00:00:06]. Maybe not enough time to generate it?
+2012-01-20 15:05:35.5655|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 15:05:35.5655|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=510)
+2012-01-20 15:05:35.5655|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Green background
+2012-01-20 15:05:35.5655|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Romantic to Yellow background
+2012-01-20 15:05:35.5655|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 15:05:35.5655|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=508 }
+2012-01-20 15:05:35.5655|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 15:05:35.5875|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 15:05:35.5875|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 15:05:35.5875|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 15:05:35.5875|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 15:05:35.5875|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 15:05:35.5875|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SyncTrackWithMixer on 2196~Onda Geox jingle 06
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.AddToPlayer|Adding 2197~Onda Geox jingle 07 [00:00:06] to TrackCuePointQueue to get its cue points
+2012-01-20 15:05:35.5965|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177275
+2012-01-20 15:05:35.6125|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|TrackCuePointQueue contains 2 elements.
+2012-01-20 15:05:35.6125|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SetTrackCuePoints on 204~01 Romantic
+2012-01-20 15:05:35.6125|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\0\204~01 Romantic.mp3
+2012-01-20 15:05:35.6125|DEBUG|OpenStation.MainForm.InitializeCrons|Creating trigger for AddNextDaySchedule
+2012-01-20 15:05:35.6125|DEBUG|OpenStation.MainForm.InitializeCrons|Created trigger: ComLib.Scheduling.Trigger
+2012-01-20 15:05:35.6305|DEBUG|OpenStation.MainForm.InitializeCrons|Task summary: ComLib.Scheduling.TaskSummary
+2012-01-20 15:05:35.6305|DEBUG|OpenStation.MainForm.InitializeCrons|Check if scheduler is started: True
+2012-01-20 15:05:35.6305|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Mixer stalled
+2012-01-20 15:05:35.6305|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Stopping timerUpdate
+2012-01-20 15:05:35.6305|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Stopping EditorTimer
+2012-01-20 15:05:35.6305|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Setting progress Bars to 0
+2012-01-20 15:05:35.6305|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Mixer resumed
+2012-01-20 15:05:35.6305|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Re-starting timerUpdate
+2012-01-20 15:05:35.6435|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Re-starting EditorTimer
+2012-01-20 15:05:37.0447|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 15:05:37.0447|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 15:05:37.0447|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (38808)
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (84615552)
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SyncTrackWithMixer on 204~01 Romantic
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177271
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|TrackCuePointQueue contains 1 elements.
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SetTrackCuePoints on 2197~Onda Geox jingle 07
+2012-01-20 15:05:37.0477|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 15:05:37.0977|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 15:05:37.0977|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 15:05:37.0977|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 15:05:37.0977|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 15:05:37.0977|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 15:05:37.0977|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 15:05:37.0977|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 15:05:37.0977|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 15:05:37.0977|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 15:05:37.1137|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 15:05:37.1137|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 15:05:37.1137|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SyncTrackWithMixer on 2197~Onda Geox jingle 07
+2012-01-20 15:05:37.1137|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 15:05:37.1137|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177268
+2012-01-20 15:05:39.8029|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306354 Channel = -1342177275 Data = 0 User = 1
+2012-01-20 15:05:39.8029|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 15:05:39.8029|DEBUG|OpenStation.MainForm.<OnTrackSync>b__4|Calling PlayTrack...
+2012-01-20 15:05:39.8029|DEBUG|OpenStation.MainForm.PlayTrack|Locking playlist
+2012-01-20 15:05:39.8029|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 15:05:39.8029|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 204~01 Romantic - 
+2012-01-20 15:05:39.8029|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 204~01 Romantic [00:04:06]
+2012-01-20 15:05:39.8099|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 204~01 Romantic [00:04:06]
+2012-01-20 15:05:39.8099|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 15:05:39.8099|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 204~01 Romantic
+2012-01-20 15:05:39.8099|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 38808
+2012-01-20 15:05:39.8099|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 84615552
+2012-01-20 15:05:39.8099|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 15:05:39.8479|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 15:05:39.8479|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=511)
+2012-01-20 15:05:39.8479|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Romantic to Green background
+2012-01-20 15:05:39.8479|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 15:05:39.8479|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row O Divina to Yellow background
+2012-01-20 15:05:39.8479|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=509 }
+2012-01-20 15:05:39.8559|DEBUG|OpenStation.MainForm.AddToPlayer|Adding new ScheduleItem to Player internal playlist
+2012-01-20 15:05:43.3953|DEBUG|OpenStation.MainForm.AddToPlayer|Locking player internal playlist
+2012-01-20 15:05:43.3953|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2226~AudioCD#f60f4412-11 [00:04:07]to player playlist
+2012-01-20 15:05:43.3973|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 15:05:43.3973|DEBUG|OpenStation.MainForm.AddToPlayer|Adding 2226~AudioCD#f60f4412-11 [00:04:07] to TrackCuePointQueue to get its cue points
+2012-01-20 15:05:43.3973|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 15:05:43.3973|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|TrackCuePointQueue contains 1 elements.
+2012-01-20 15:05:43.3973|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SetTrackCuePoints on 2226~AudioCD#f60f4412-11
+2012-01-20 15:05:43.3973|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2226~AudioCD#f60f4412-11.mp3
+2012-01-20 15:05:44.7964|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 15:05:44.7964|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 15:05:44.7964|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (59976)
+2012-01-20 15:05:44.7964|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (81627336)
+2012-01-20 15:05:44.7964|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 15:05:44.7964|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 15:05:44.8014|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 15:05:44.8014|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 15:05:44.8014|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 15:05:44.8014|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 15:05:44.8014|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 15:05:44.8014|DEBUG|OpenStation.MainForm.TrackCuePointsBGW_DoWork|Running SyncTrackWithMixer on 2226~AudioCD#f60f4412-11
+2012-01-20 15:05:44.8014|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 15:05:44.8014|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177260
+2012-01-20 15:05:53.6193|DEBUG|OpenStation.MainForm.Simple_Closing|Closing Bass
+2012-01-20 15:05:53.6523|DEBUG|OpenStation.MainForm.MainForm_FormClosing|Quitting OpenPlayout
+2012-01-20 17:01:15.6545|DEBUG|OpenStation.MainForm.Form_Load|************************Starting OpenPlayout ************************
+2012-01-20 17:01:15.6725|DEBUG|OpenStation.MainForm.Form_Load|Initializing BASS
+2012-01-20 17:01:15.7455|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, buffer = 200
+2012-01-20 17:01:15.7455|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, updateperiod = 20
+2012-01-20 17:01:15.7455|DEBUG|OpenStation.MainForm.Form_Load|Bass StreamCreate: Sample rate 44100, 2 channels, 32bit floating point output
+2012-01-20 17:01:15.7625|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelSetSync (setting a synchronizer): default mixer, Sync on stall, default user instance
+2012-01-20 17:01:15.7625|DEBUG|OpenStation.MainForm.Form_Load|timerUpdate started
+2012-01-20 17:01:15.7625|DEBUG|OpenStation.MainForm.Form_Load|EditorTimer started
+2012-01-20 17:01:15.7625|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelPlay started, don't restart playback from beginning
+2012-01-20 17:01:15.7625|DEBUG|OpenStation.MainForm.Form_Load|Load song library from songs.xml
+2012-01-20 17:01:15.8005|DEBUG|OpenStation.MainForm.LoadTodaySchedule|Loading Today Schedule
+2012-01-20 17:01:15.8255|DEBUG|OpenStation.MainForm.LoadSchedule|Loading schedule for 20/01/2012 00:00:00 from file \Schedules\20120120.log
+2012-01-20 17:01:16.1295|DEBUG|OpenStation.MainForm.LoadSchedule|Schedule for 20/01/2012 00:00:00 loaded successfully
+2012-01-20 17:01:16.1295|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Loading next 2 events to play from current schedule at current time
+2012-01-20 17:01:16.1365|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem *OpenStation.OpenStationDS+ScheduleRow* to Player
+2012-01-20 17:01:16.1715|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 17:01:16.1715|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:01:16.1715|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 17:01:16.2285|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:01:16.2295|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177275
+2012-01-20 17:01:16.2445|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem *OpenStation.OpenStationDS+ScheduleRow* to Player
+2012-01-20 17:01:16.4455|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 205~01 Thank You [00:04:35]to player playlist
+2012-01-20 17:01:16.4455|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:01:16.4475|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\0\205~01 Thank You.mp3
+2012-01-20 17:01:18.0177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:01:18.0177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:01:18.0177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (148176)
+2012-01-20 17:01:18.0177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (92214864)
+2012-01-20 17:01:18.0177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:01:18.0177|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:01:18.0237|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:01:18.0237|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:01:18.0237|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:01:18.0237|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:01:18.0237|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:01:18.0237|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:01:18.0237|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177270
+2012-01-20 17:01:18.0237|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Start player
+2012-01-20 17:01:18.0387|DEBUG|OpenStation.MainForm.StartPlayer|Current track is null
+2012-01-20 17:01:18.0387|DEBUG|OpenStation.MainForm.StartPlayer|Calling PlayTrack...
+2012-01-20 17:01:18.0387|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:01:18.0387|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2197~Onda Geox jingle 07 - 
+2012-01-20 17:01:18.0387|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:01:18.0387|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:01:18.0387|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:01:18.0387|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2197~Onda Geox jingle 07
+2012-01-20 17:01:18.0387|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 91728
+2012-01-20 17:01:18.0547|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 1615824
+2012-01-20 17:01:18.0547|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:01:18.0867|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:01:18.0867|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=544)
+2012-01-20 17:01:18.0867|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Green background
+2012-01-20 17:01:18.0867|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Thank You to Yellow background
+2012-01-20 17:01:18.0867|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Yellow background
+2012-01-20 17:01:18.0867|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=542 }
+2012-01-20 17:01:18.0867|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 06 to player on separate thread...
+2012-01-20 17:01:18.1287|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2196~Onda Geox jingle 06 [00:00:06]to player playlist
+2012-01-20 17:03:32.1701|DEBUG|OpenStation.MainForm.Form_Load|************************Starting OpenPlayout ************************
+2012-01-20 17:03:32.1921|DEBUG|OpenStation.MainForm.Form_Load|Initializing BASS
+2012-01-20 17:03:32.2581|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, buffer = 200
+2012-01-20 17:03:32.2581|DEBUG|OpenStation.MainForm.Form_Load|Bass SetConfig, updateperiod = 20
+2012-01-20 17:03:32.2581|DEBUG|OpenStation.MainForm.Form_Load|Bass StreamCreate: Sample rate 44100, 2 channels, 32bit floating point output
+2012-01-20 17:03:32.2741|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelSetSync (setting a synchronizer): default mixer, Sync on stall, default user instance
+2012-01-20 17:03:32.2741|DEBUG|OpenStation.MainForm.Form_Load|timerUpdate started
+2012-01-20 17:03:32.2741|DEBUG|OpenStation.MainForm.Form_Load|EditorTimer started
+2012-01-20 17:03:32.2741|DEBUG|OpenStation.MainForm.Form_Load|Bass ChannelPlay started, don't restart playback from beginning
+2012-01-20 17:03:32.2741|DEBUG|OpenStation.MainForm.Form_Load|Load song library from songs.xml
+2012-01-20 17:03:32.3061|DEBUG|OpenStation.MainForm.LoadTodaySchedule|Loading Today Schedule
+2012-01-20 17:03:32.3481|DEBUG|OpenStation.MainForm.LoadSchedule|Loading schedule for 20/01/2012 00:00:00 from file \Schedules\20120120.log
+2012-01-20 17:03:32.6882|DEBUG|OpenStation.MainForm.LoadSchedule|Schedule for 20/01/2012 00:00:00 loaded successfully
+2012-01-20 17:03:32.6902|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Loading next 2 events to play from current schedule at current time
+2012-01-20 17:03:32.6902|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem *OpenStation.OpenStationDS+ScheduleRow* to Player
+2012-01-20 17:03:32.7622|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 17:03:32.7622|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:03:32.7622|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 17:03:32.8182|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:03:32.8182|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:03:32.8182|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 17:03:32.8182|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 17:03:32.8182|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:03:32.8182|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:03:32.8182|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:03:32.8182|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:03:32.8292|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:03:32.8292|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:03:32.8292|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:03:32.8292|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:03:32.8292|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177275
+2012-01-20 17:03:32.8292|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Adding ScheduleItem *OpenStation.OpenStationDS+ScheduleRow* to Player
+2012-01-20 17:03:33.0712|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 205~01 Thank You [00:04:35]to player playlist
+2012-01-20 17:03:33.0712|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:03:33.0712|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\0\205~01 Thank You.mp3
+2012-01-20 17:03:34.6524|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:03:34.6524|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (148176)
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (92214864)
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177270
+2012-01-20 17:03:34.6544|DEBUG|OpenStation.MainForm.InitializePlayerFromSchedule|Start player
+2012-01-20 17:03:34.6704|DEBUG|OpenStation.MainForm.StartPlayer|Current track is null
+2012-01-20 17:03:34.6704|DEBUG|OpenStation.MainForm.StartPlayer|Calling PlayTrack...
+2012-01-20 17:03:34.6994|DEBUG|OpenStation.MainForm.InitializeCrons|Creating trigger for AddNextDaySchedule
+2012-01-20 17:03:34.7014|DEBUG|OpenStation.MainForm.InitializeCrons|Created trigger: ComLib.Scheduling.Trigger
+2012-01-20 17:03:34.7014|DEBUG|OpenStation.MainForm.InitializeCrons|Task summary: ComLib.Scheduling.TaskSummary
+2012-01-20 17:03:34.7014|DEBUG|OpenStation.MainForm.InitializeCrons|Check if scheduler is started: True
+2012-01-20 17:03:34.7014|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Mixer stalled
+2012-01-20 17:03:34.7174|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Stopping timerUpdate
+2012-01-20 17:03:34.7174|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Stopping EditorTimer
+2012-01-20 17:03:34.7174|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Setting progress Bars to 0
+2012-01-20 17:03:42.8232|DEBUG|OpenStation.MainForm.BtPlay_Click|User command - Play/Next
+2012-01-20 17:03:42.8232|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:03:42.8232|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2197~Onda Geox jingle 07 - 
+2012-01-20 17:03:42.8232|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:03:42.8232|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:03:42.8232|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:03:42.8292|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2197~Onda Geox jingle 07
+2012-01-20 17:03:42.8292|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 91728
+2012-01-20 17:03:42.8292|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 1615824
+2012-01-20 17:03:42.8292|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:03:42.8882|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:03:42.8882|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=544)
+2012-01-20 17:03:42.8932|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Green background
+2012-01-20 17:03:42.8932|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Thank You to Yellow background
+2012-01-20 17:03:42.8932|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Yellow background
+2012-01-20 17:03:42.8932|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=542 }
+2012-01-20 17:03:42.8932|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 06 to player on separate thread...
+2012-01-20 17:03:42.8932|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Mixer resumed
+2012-01-20 17:03:42.8932|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Re-starting timerUpdate
+2012-01-20 17:03:42.8932|DEBUG|OpenStation.MainForm+<>c__DisplayClass1.<OnMixerStall>b__0|Re-starting EditorTimer
+2012-01-20 17:03:42.9902|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2196~Onda Geox jingle 06 [00:00:06]to player playlist
+2012-01-20 17:03:42.9902|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:03:42.9902|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2196~Onda Geox jingle 06.mp3
+2012-01-20 17:03:43.0372|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:03:43.0372|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:03:43.0372|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 17:03:43.0372|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 17:03:43.0372|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:03:43.0372|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:03:43.0372|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:03:43.0372|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:03:43.0372|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:03:43.0482|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:03:43.0482|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:03:43.0482|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:03:43.0482|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177265
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306360 Channel = -1342177275 Data = 0 User = 1
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 205~01 Thank You - 
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 205~01 Thank You [00:04:35]
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 205~01 Thank You [00:04:35]
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 205~01 Thank You
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 148176
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 92214864
+2012-01-20 17:03:47.0286|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:03:47.0556|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:03:47.0556|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=545)
+2012-01-20 17:03:47.0576|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Thank You to Green background
+2012-01-20 17:03:47.0576|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Yellow background
+2012-01-20 17:03:47.0576|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Heartbreaker to Yellow background
+2012-01-20 17:03:47.0576|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=543 }
+2012-01-20 17:03:47.0576|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Heartbreaker to player on separate thread...
+2012-01-20 17:03:47.0576|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:03:47.3326|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2006~Heartbreaker [00:04:05]to player playlist
+2012-01-20 17:03:47.3326|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:03:47.3326|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2006~Heartbreaker.mp3
+2012-01-20 17:03:48.7538|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:03:48.7538|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:03:48.7538|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (28224)
+2012-01-20 17:03:48.7538|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (85141224)
+2012-01-20 17:03:48.7538|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:03:48.7578|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:03:48.7578|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:03:48.7578|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:03:48.7578|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:03:48.7578|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:03:48.7578|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:03:48.7578|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:03:48.7578|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177260
+2012-01-20 17:03:50.1929|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|205~01 Thank You - Playback position: 00:00:03
+2012-01-20 17:03:57.6797|DEBUG|OpenStation.MainForm.BtPlay_Click|User command - Play/Next
+2012-01-20 17:03:57.6797|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:03:57.6797|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2196~Onda Geox jingle 06 - 
+2012-01-20 17:03:57.6817|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2196~Onda Geox jingle 06 [00:00:06]
+2012-01-20 17:03:57.6817|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2196~Onda Geox jingle 06 [00:00:06]
+2012-01-20 17:03:57.6817|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:03:57.6817|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2196~Onda Geox jingle 06
+2012-01-20 17:03:57.6817|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 91728
+2012-01-20 17:03:57.6817|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 1615824
+2012-01-20 17:03:57.6817|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:03:57.7017|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:03:57.7017|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=546)
+2012-01-20 17:03:57.7017|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Green background
+2012-01-20 17:03:57.7017|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Heartbreaker to Yellow background
+2012-01-20 17:03:57.7017|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 17:03:57.7017|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=544 }
+2012-01-20 17:03:57.7017|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 07 to player on separate thread...
+2012-01-20 17:03:57.7017|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:03:57.7187|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 17:03:57.7187|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:03:57.7187|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:03:57.7627|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:03:57.7747|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177255
+2012-01-20 17:04:00.3349|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2196~Onda Geox jingle 06 - Playback position: 00:00:02
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306350 Channel = -1342177265 Data = 0 User = 1
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2006~Heartbreaker - 
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2006~Heartbreaker [00:04:05]
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2006~Heartbreaker [00:04:05]
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2006~Heartbreaker
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 28224
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 85141224
+2012-01-20 17:04:01.9891|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:04:02.0161|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:04:02.0161|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=547)
+2012-01-20 17:04:02.0181|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Heartbreaker to Green background
+2012-01-20 17:04:02.0181|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 17:04:02.0181|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row I Don't Wanna Fight to Yellow background
+2012-01-20 17:04:02.0181|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=545 }
+2012-01-20 17:04:02.0181|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem I Don't Wanna Fight to player on separate thread...
+2012-01-20 17:04:02.0181|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:04:02.2731|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 259~11 I Don't Wanna Fight [00:04:19]to player playlist
+2012-01-20 17:04:02.2731|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:04:02.2731|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\0\259~11 I Don't Wanna Fight.mp3
+2012-01-20 17:04:03.7623|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:04:03.7623|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:04:03.7623|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (38808)
+2012-01-20 17:04:03.7623|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (88919712)
+2012-01-20 17:04:03.7623|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:04:03.7623|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:03.7663|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:03.7663|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:03.7663|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:03.7663|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:03.7663|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:04:03.7663|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:04:03.7663|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177250
+2012-01-20 17:04:06.0575|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:06.0575|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:06.0595|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:06.0595|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:06.0595|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:10.4750|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2006~Heartbreaker - Playback position: 00:00:50
+2012-01-20 17:04:12.6472|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:12.6472|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:12.6472|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:12.6472|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:12.6582|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306333 Channel = -1342177260 Data = 0 User = 1
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2197~Onda Geox jingle 07 - 
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2197~Onda Geox jingle 07
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 91728
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 1615824
+2012-01-20 17:04:17.1696|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:04:17.1856|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:04:17.1856|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=548)
+2012-01-20 17:04:17.1856|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Green background
+2012-01-20 17:04:17.1856|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row I Don't Wanna Fight to Yellow background
+2012-01-20 17:04:17.1856|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Benefeet sogg.1 to Yellow background
+2012-01-20 17:04:17.1856|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=546 }
+2012-01-20 17:04:17.1856|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Benefeet sogg.1 to player on separate thread...
+2012-01-20 17:04:17.1856|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:04:17.2566|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2189~Benefeet sogg.1 [00:00:40]to player playlist
+2012-01-20 17:04:17.2566|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:04:17.2566|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2189~Benefeet sogg.1.mp3
+2012-01-20 17:04:17.4867|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:04:17.4867|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:04:17.4867|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (24696)
+2012-01-20 17:04:17.4867|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (13642776)
+2012-01-20 17:04:17.4867|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:04:17.4867|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:17.4867|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:17.4867|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:17.4867|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:17.4947|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:17.4947|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:04:17.4947|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:04:17.4947|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177243
+2012-01-20 17:04:20.6150|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2197~Onda Geox jingle 07 - Playback position: 00:00:03
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306340 Channel = -1342177255 Data = 0 User = 1
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 259~11 I Don't Wanna Fight - 
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 259~11 I Don't Wanna Fight [00:04:19]
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 259~11 I Don't Wanna Fight [00:04:19]
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 259~11 I Don't Wanna Fight
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 38808
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 88919712
+2012-01-20 17:04:21.4901|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:04:21.5161|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:04:21.5161|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=549)
+2012-01-20 17:04:21.5191|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row I Don't Wanna Fight to Green background
+2012-01-20 17:04:21.5191|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Benefeet sogg.1 to Yellow background
+2012-01-20 17:04:21.5191|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 05 to Yellow background
+2012-01-20 17:04:21.5191|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=547 }
+2012-01-20 17:04:21.5191|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 05 to player on separate thread...
+2012-01-20 17:04:21.5191|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:04:21.5621|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2195~Onda Geox jingle 05 [00:00:13]to player playlist
+2012-01-20 17:04:21.5621|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:04:21.5621|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2195~Onda Geox jingle 05.mp3
+2012-01-20 17:04:21.6421|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:04:21.6421|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (179928)
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (3778488)
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:04:21.6441|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177238
+2012-01-20 17:04:23.6873|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:23.6883|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:23.6883|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:23.6883|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:23.6883|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:24.4233|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:24.4233|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:24.4233|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:24.4233|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:24.4233|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:26.6416|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:26.6416|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:26.6416|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:26.6416|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:26.6416|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:30.7560|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|259~11 I Don't Wanna Fight - Playback position: 00:03:31
+2012-01-20 17:04:31.0480|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:31.0480|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:31.0520|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:31.0520|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:31.0520|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:40.8970|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|259~11 I Don't Wanna Fight - Playback position: 00:04:04
+2012-01-20 17:04:43.9303|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306322 Channel = -1342177250 Data = 0 User = 1
+2012-01-20 17:04:43.9303|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:04:43.9303|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:04:43.9303|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:04:43.9303|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2189~Benefeet sogg.1 - 
+2012-01-20 17:04:43.9303|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2189~Benefeet sogg.1 [00:00:40]
+2012-01-20 17:04:43.9303|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2189~Benefeet sogg.1 [00:00:40]
+2012-01-20 17:04:43.9303|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:04:43.9383|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2189~Benefeet sogg.1
+2012-01-20 17:04:43.9383|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 24696
+2012-01-20 17:04:43.9383|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 13642776
+2012-01-20 17:04:43.9383|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:04:43.9553|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:04:43.9553|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=550)
+2012-01-20 17:04:43.9553|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Benefeet sogg.1 to Green background
+2012-01-20 17:04:43.9553|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 05 to Yellow background
+2012-01-20 17:04:43.9553|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Secret Lovers to Yellow background
+2012-01-20 17:04:43.9553|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=548 }
+2012-01-20 17:04:43.9693|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Secret Lovers to player on separate thread...
+2012-01-20 17:04:43.9693|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:04:44.3293|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2079~Secret Lovers [00:05:24]to player playlist
+2012-01-20 17:04:44.3293|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:04:44.3293|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2079~Secret Lovers.mp3
+2012-01-20 17:04:46.1675|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (77616)
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (107208864)
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:04:46.1685|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177232
+2012-01-20 17:04:50.0219|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2189~Benefeet sogg.1 - Playback position: 00:00:05
+2012-01-20 17:04:52.7862|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:52.7862|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:52.7862|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:52.7862|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:52.7862|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306316 Channel = -1342177243 Data = 0 User = 1
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2195~Onda Geox jingle 05 - 
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2195~Onda Geox jingle 05 [00:00:13]
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2195~Onda Geox jingle 05 [00:00:13]
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2195~Onda Geox jingle 05
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 179928
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 3778488
+2012-01-20 17:04:57.8117|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:04:57.8307|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:04:57.8307|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=551)
+2012-01-20 17:04:57.8307|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 05 to Green background
+2012-01-20 17:04:57.8307|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Secret Lovers to Yellow background
+2012-01-20 17:04:57.8307|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 17:04:57.8307|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=549 }
+2012-01-20 17:04:57.8307|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 07 to player on separate thread...
+2012-01-20 17:04:57.8307|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:04:57.8687|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 17:04:57.8697|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:04:57.8697|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 17:04:57.9117|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:04:57.9117|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:04:57.9117|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 17:04:57.9117|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 17:04:57.9117|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:04:57.9157|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:04:57.9157|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:04:57.9157|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:04:57.9157|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:04:57.9157|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:04:57.9157|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:04:57.9157|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:04:57.9157|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177226
+2012-01-20 17:05:00.1629|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2195~Onda Geox jingle 05 - Playback position: 00:00:02
+2012-01-20 17:05:08.0317|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306323 Channel = -1342177238 Data = 0 User = 1
+2012-01-20 17:05:08.0317|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:05:08.0317|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:05:08.0317|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:05:08.0317|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2079~Secret Lovers - 
+2012-01-20 17:05:08.0317|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2079~Secret Lovers [00:05:24]
+2012-01-20 17:05:08.0317|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2079~Secret Lovers [00:05:24]
+2012-01-20 17:05:08.0317|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:05:08.0317|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2079~Secret Lovers
+2012-01-20 17:05:08.0317|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 77616
+2012-01-20 17:05:08.0437|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 107208864
+2012-01-20 17:05:08.0437|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:05:08.0597|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:05:08.0597|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=552)
+2012-01-20 17:05:08.0597|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Secret Lovers to Green background
+2012-01-20 17:05:08.0597|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 17:05:08.0597|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Show Me to Yellow background
+2012-01-20 17:05:08.0597|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=550 }
+2012-01-20 17:05:08.0597|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Show Me to player on separate thread...
+2012-01-20 17:05:08.0597|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:05:08.3467|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2161~Dana Dawson - Show me [00:03:48]to player playlist
+2012-01-20 17:05:08.3467|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:05:08.3467|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2161~Dana Dawson - Show me.mp3
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (172872)
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (76864536)
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:05:09.6479|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177221
+2012-01-20 17:05:10.3039|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2079~Secret Lovers - Playback position: 00:00:02
+2012-01-20 17:05:11.4420|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:11.4420|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:11.4420|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:11.4420|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:11.4420|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:12.4101|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:12.4101|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:12.4101|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:12.4101|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:12.4101|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:14.0983|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:14.0983|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:14.0983|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:14.0983|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:14.0983|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:17.8107|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:17.8107|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:17.8107|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:17.8107|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:17.8107|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:20.4439|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2079~Secret Lovers - Playback position: 00:05:05
+2012-01-20 17:05:29.5129|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306305 Channel = -1342177232 Data = 0 User = 1
+2012-01-20 17:05:29.5129|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:05:29.5129|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:05:29.5129|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:05:29.5129|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2197~Onda Geox jingle 07 - 
+2012-01-20 17:05:29.5259|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:05:29.5259|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:05:29.5259|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:05:29.5259|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2197~Onda Geox jingle 07
+2012-01-20 17:05:29.5259|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 91728
+2012-01-20 17:05:29.5259|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 1615824
+2012-01-20 17:05:29.5259|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:05:29.5389|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:05:29.5389|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=553)
+2012-01-20 17:05:29.5389|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Green background
+2012-01-20 17:05:29.5389|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Show Me to Yellow background
+2012-01-20 17:05:29.5389|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Yellow background
+2012-01-20 17:05:29.5389|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=551 }
+2012-01-20 17:05:29.5389|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 06 to player on separate thread...
+2012-01-20 17:05:29.5389|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:05:29.5899|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2196~Onda Geox jingle 06 [00:00:06]to player playlist
+2012-01-20 17:05:29.5899|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:05:29.5899|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2196~Onda Geox jingle 06.mp3
+2012-01-20 17:05:29.6399|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:05:29.6399|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:05:29.6399|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 17:05:29.6399|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 17:05:29.6399|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:05:29.6479|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:29.6479|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:29.6479|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:29.6479|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:29.6479|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:29.6479|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:05:29.6479|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:05:29.6479|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177215
+2012-01-20 17:05:30.5840|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2197~Onda Geox jingle 07 - Playback position: 00:00:01
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306311 Channel = -1342177226 Data = 0 User = 1
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2161~Dana Dawson - Show me - 
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2161~Dana Dawson - Show me [00:03:48]
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2161~Dana Dawson - Show me [00:03:48]
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2161~Dana Dawson - Show me
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 172872
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 76864536
+2012-01-20 17:05:33.8333|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:05:33.8623|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:05:33.8623|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=554)
+2012-01-20 17:05:33.8623|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Show Me to Green background
+2012-01-20 17:05:33.8623|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Yellow background
+2012-01-20 17:05:33.8623|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row She's Got That Vibe to Yellow background
+2012-01-20 17:05:33.8623|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=552 }
+2012-01-20 17:05:33.8623|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem She's Got That Vibe to player on separate thread...
+2012-01-20 17:05:33.8623|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:05:34.1363|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 228~05 She's Got That Vibe [00:03:55]to player playlist
+2012-01-20 17:05:34.1363|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:05:34.1363|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\0\228~05 She's Got That Vibe.mp3
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (81144)
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (80180856)
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:35.4895|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:05:35.4985|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:05:35.4985|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177210
+2012-01-20 17:05:36.3225|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:36.3225|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:36.3275|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:36.3275|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:36.3275|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:40.7250|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2161~Dana Dawson - Show me - Playback position: 00:03:15
+2012-01-20 17:05:41.4670|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:41.4670|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:41.4670|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:41.4730|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:41.4730|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:47.1336|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306293 Channel = -1342177221 Data = 0 User = 1
+2012-01-20 17:05:47.1336|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:05:47.1336|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:05:47.1336|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:05:47.1366|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2196~Onda Geox jingle 06 - 
+2012-01-20 17:05:47.1366|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2196~Onda Geox jingle 06 [00:00:06]
+2012-01-20 17:05:47.1366|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2196~Onda Geox jingle 06 [00:00:06]
+2012-01-20 17:05:47.1366|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:05:47.1366|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2196~Onda Geox jingle 06
+2012-01-20 17:05:47.1366|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 91728
+2012-01-20 17:05:47.1366|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 1615824
+2012-01-20 17:05:47.1366|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:05:47.1526|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:05:47.1526|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=555)
+2012-01-20 17:05:47.1526|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Green background
+2012-01-20 17:05:47.1526|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row She's Got That Vibe to Yellow background
+2012-01-20 17:05:47.1526|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 17:05:47.1526|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=553 }
+2012-01-20 17:05:47.1526|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 07 to player on separate thread...
+2012-01-20 17:05:47.1526|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:05:47.1726|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 17:05:47.1726|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:05:47.1726|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:05:47.2176|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177203
+2012-01-20 17:05:50.8660|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2196~Onda Geox jingle 06 - Playback position: 00:00:03
+2012-01-20 17:05:51.4540|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306300 Channel = -1342177215 Data = 0 User = 1
+2012-01-20 17:05:51.4540|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:05:51.4540|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:05:51.4540|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:05:51.4540|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 228~05 She's Got That Vibe - 
+2012-01-20 17:05:51.4580|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 228~05 She's Got That Vibe [00:03:55]
+2012-01-20 17:05:51.4580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 228~05 She's Got That Vibe [00:03:55]
+2012-01-20 17:05:51.4580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:05:51.4580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 228~05 She's Got That Vibe
+2012-01-20 17:05:51.4580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 81144
+2012-01-20 17:05:51.4580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 80180856
+2012-01-20 17:05:51.4580|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:05:51.4791|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:05:51.4791|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=556)
+2012-01-20 17:05:51.4791|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row She's Got That Vibe to Green background
+2012-01-20 17:05:51.4791|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 17:05:51.4791|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Man In The Mirror to Yellow background
+2012-01-20 17:05:51.4791|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=554 }
+2012-01-20 17:05:51.4791|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Man In The Mirror to player on separate thread...
+2012-01-20 17:05:51.4791|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:05:51.8741|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 240~07 Michael Jackson _ Man In The Mirr [00:05:07]to player playlist
+2012-01-20 17:05:51.8741|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:05:51.8741|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\0\240~07 Michael Jackson _ Man In The Mirr.mp3
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (236376)
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (104756904)
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:05:53.6153|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177198
+2012-01-20 17:05:55.5475|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:05:55.5475|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:05:55.5475|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:05:55.5475|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:05:55.5475|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:06:05.9145|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306280 Channel = -1342177210 Data = 0 User = 1
+2012-01-20 17:06:05.9145|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:06:05.9145|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:06:05.9145|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:06:05.9145|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2197~Onda Geox jingle 07 - 
+2012-01-20 17:06:05.9195|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:06:05.9195|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:06:05.9195|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:06:05.9195|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2197~Onda Geox jingle 07
+2012-01-20 17:06:05.9195|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 91728
+2012-01-20 17:06:05.9195|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 1615824
+2012-01-20 17:06:05.9195|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:06:05.9195|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:06:05.9195|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=557)
+2012-01-20 17:06:05.9365|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Green background
+2012-01-20 17:06:05.9365|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Man In The Mirror to Yellow background
+2012-01-20 17:06:05.9365|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row AmphiBiox sogg.3 to Yellow background
+2012-01-20 17:06:05.9365|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=555 }
+2012-01-20 17:06:05.9365|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem AmphiBiox sogg.3 to player on separate thread...
+2012-01-20 17:06:05.9365|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:06:06.0305|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2187~AmphiBiox sogg.3 [00:00:38]to player playlist
+2012-01-20 17:06:06.0305|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:06:06.0305|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2187~AmphiBiox sogg.3.mp3
+2012-01-20 17:06:06.2445|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:06:06.2445|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:06:06.2445|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (42336)
+2012-01-20 17:06:06.2445|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (13367592)
+2012-01-20 17:06:06.2475|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:06:06.2475|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:06:06.2475|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:06:06.2475|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:06:06.2475|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:06:06.2475|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:06:06.2475|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:06:06.2475|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:06:06.2475|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177190
+2012-01-20 17:06:10.1319|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2197~Onda Geox jingle 07 - Playback position: 00:00:04
+2012-01-20 17:06:10.2539|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306288 Channel = -1342177203 Data = 0 User = 1
+2012-01-20 17:06:10.2539|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:06:10.2539|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:06:10.2539|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:06:10.2569|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 240~07 Michael Jackson _ Man In The Mirr - 
+2012-01-20 17:06:10.2569|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 240~07 Michael Jackson _ Man In The Mirr [00:05:07]
+2012-01-20 17:06:10.2569|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 240~07 Michael Jackson _ Man In The Mirr [00:05:07]
+2012-01-20 17:06:10.2569|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:06:10.2569|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 240~07 Michael Jackson _ Man In The Mirr
+2012-01-20 17:06:10.2569|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 236376
+2012-01-20 17:06:10.2569|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 104756904
+2012-01-20 17:06:10.2569|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:06:10.2779|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:06:10.2779|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=558)
+2012-01-20 17:06:10.2779|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Man In The Mirror to Green background
+2012-01-20 17:06:10.2779|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row AmphiBiox sogg.3 to Yellow background
+2012-01-20 17:06:10.2779|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 01 to Yellow background
+2012-01-20 17:06:10.2779|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=556 }
+2012-01-20 17:06:10.2779|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 01 to player on separate thread...
+2012-01-20 17:06:10.2779|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:06:10.3319|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2191~Onda Geox jingle 01 [00:00:11]to player playlist
+2012-01-20 17:06:10.3319|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:06:10.3349|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2191~Onda Geox jingle 01.mp3
+2012-01-20 17:06:10.4009|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:06:10.4009|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:06:10.4009|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (179928)
+2012-01-20 17:06:10.4009|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (3739680)
+2012-01-20 17:06:10.4009|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:06:10.4009|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:06:10.4009|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:06:10.4009|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:06:10.4129|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:06:10.4129|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:06:10.4129|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:06:10.4129|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:06:10.4129|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177185
+2012-01-20 17:06:15.9005|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:06:15.9005|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:06:15.9005|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:06:15.9055|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:06:15.9055|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:06:20.2739|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|240~07 Michael Jackson _ Man In The Mirr - Playback position: 00:04:50
+2012-01-20 17:06:28.1947|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306267 Channel = -1342177198 Data = 0 User = 1
+2012-01-20 17:06:28.1947|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:06:28.1947|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:06:28.1947|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:06:28.1977|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2187~AmphiBiox sogg.3 - 
+2012-01-20 17:06:28.1977|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2187~AmphiBiox sogg.3 [00:00:38]
+2012-01-20 17:06:28.1977|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2187~AmphiBiox sogg.3 [00:00:38]
+2012-01-20 17:06:28.1977|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:06:28.1977|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2187~AmphiBiox sogg.3
+2012-01-20 17:06:28.1977|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 42336
+2012-01-20 17:06:28.1977|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 13367592
+2012-01-20 17:06:28.1977|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:06:28.2177|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:06:28.2177|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=559)
+2012-01-20 17:06:28.2177|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row AmphiBiox sogg.3 to Green background
+2012-01-20 17:06:28.2177|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 01 to Yellow background
+2012-01-20 17:06:28.2177|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row WALKING AWAY to Yellow background
+2012-01-20 17:06:28.2177|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=557 }
+2012-01-20 17:06:28.2177|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem WALKING AWAY to player on separate thread...
+2012-01-20 17:06:28.2177|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:06:28.4757|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2126~Walking Away [00:03:22]to player playlist
+2012-01-20 17:06:28.4757|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:06:28.4757|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2126~Walking Away.mp3
+2012-01-20 17:06:29.6229|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:06:29.6229|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:06:29.6229|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (186984)
+2012-01-20 17:06:29.6229|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (67338936)
+2012-01-20 17:06:29.6229|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:06:29.6229|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:06:29.6229|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:06:29.6229|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:06:29.6329|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:06:29.6329|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:06:29.6329|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:06:29.6329|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:06:29.6329|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177177
+2012-01-20 17:06:30.4129|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2187~AmphiBiox sogg.3 - Playback position: 00:00:02
+2012-01-20 17:06:30.8860|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:06:30.8860|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:06:30.8860|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:06:30.8860|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:06:30.8860|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306275 Channel = -1342177190 Data = 0 User = 1
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2191~Onda Geox jingle 01 - 
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2191~Onda Geox jingle 01 [00:00:11]
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2191~Onda Geox jingle 01 [00:00:11]
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2191~Onda Geox jingle 01
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 179928
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 3739680
+2012-01-20 17:06:33.7553|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:06:33.7733|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:06:33.7733|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=560)
+2012-01-20 17:06:33.7733|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 01 to Green background
+2012-01-20 17:06:33.7733|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row WALKING AWAY to Yellow background
+2012-01-20 17:06:33.7733|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 17:06:33.7733|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=558 }
+2012-01-20 17:06:33.7733|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 07 to player on separate thread...
+2012-01-20 17:06:33.7733|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:06:33.7973|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 17:06:33.7983|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:06:33.7983|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 17:06:33.8403|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:06:33.8403|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:06:33.8403|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 17:06:33.8403|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 17:06:33.8453|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:06:33.8453|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:06:33.8453|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:06:33.8453|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:06:33.8453|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:06:33.8453|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:06:33.8453|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:06:33.8453|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:06:33.8453|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177172
+2012-01-20 17:06:40.5540|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2191~Onda Geox jingle 01 - Playback position: 00:00:07
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306256 Channel = -1342177185 Data = 0 User = 1
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2126~Walking Away - 
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2126~Walking Away [00:03:22]
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2126~Walking Away [00:03:22]
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2126~Walking Away
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 186984
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 67338936
+2012-01-20 17:06:43.7563|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:06:43.7783|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:06:43.7783|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=561)
+2012-01-20 17:06:43.7783|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row WALKING AWAY to Green background
+2012-01-20 17:06:43.7843|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 17:06:43.7843|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Love x Love to Yellow background
+2012-01-20 17:06:43.7843|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=559 }
+2012-01-20 17:06:43.7843|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Love x Love to player on separate thread...
+2012-01-20 17:06:43.7843|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:06:44.0763|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2037~Love x Love [00:04:42]to player playlist
+2012-01-20 17:06:44.0763|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:06:44.0763|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2037~Love x Love.mp3
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (35280)
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (97274016)
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:06:45.6705|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177166
+2012-01-20 17:06:48.2617|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:06:48.2617|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:06:48.2617|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:06:48.2617|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:06:48.2617|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:06:50.6950|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2126~Walking Away - Playback position: 00:03:02
+2012-01-20 17:06:55.5565|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306250 Channel = -1342177177 Data = 0 User = 1
+2012-01-20 17:06:55.5565|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:06:55.5565|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:06:55.5565|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:06:55.5565|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2197~Onda Geox jingle 07 - 
+2012-01-20 17:06:55.5565|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:06:55.5615|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2197~Onda Geox jingle 07 [00:00:06]
+2012-01-20 17:06:55.5615|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:06:55.5615|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2197~Onda Geox jingle 07
+2012-01-20 17:06:55.5615|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 91728
+2012-01-20 17:06:55.5615|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 1615824
+2012-01-20 17:06:55.5615|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:06:55.5615|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:06:55.5615|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=562)
+2012-01-20 17:06:55.5615|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Green background
+2012-01-20 17:06:55.5775|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Love x Love to Yellow background
+2012-01-20 17:06:55.5775|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Yellow background
+2012-01-20 17:06:55.5775|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=560 }
+2012-01-20 17:06:55.5775|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 06 to player on separate thread...
+2012-01-20 17:06:55.5775|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:06:55.6305|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2196~Onda Geox jingle 06 [00:00:06]to player playlist
+2012-01-20 17:06:55.6305|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:06:55.6305|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2196~Onda Geox jingle 06.mp3
+2012-01-20 17:06:55.6755|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:06:55.6755|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:06:55.6755|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 17:06:55.6755|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 17:06:55.6755|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:06:55.6755|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:06:55.6755|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:06:55.6755|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:06:55.6865|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:06:55.6865|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:06:55.6865|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:06:55.6865|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:06:55.6865|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177160
+2012-01-20 17:06:59.6569|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306244 Channel = -1342177172 Data = 0 User = 1
+2012-01-20 17:06:59.6569|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:06:59.6569|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:06:59.6569|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:06:59.6569|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2037~Love x Love - 
+2012-01-20 17:06:59.6569|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2037~Love x Love [00:04:42]
+2012-01-20 17:06:59.6569|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2037~Love x Love [00:04:42]
+2012-01-20 17:06:59.6569|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:06:59.6679|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2037~Love x Love
+2012-01-20 17:06:59.6679|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 35280
+2012-01-20 17:06:59.6679|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 97274016
+2012-01-20 17:06:59.6679|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:06:59.6839|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:06:59.6839|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=563)
+2012-01-20 17:06:59.6839|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Love x Love to Green background
+2012-01-20 17:06:59.6839|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Yellow background
+2012-01-20 17:06:59.6839|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Little L to Yellow background
+2012-01-20 17:06:59.6839|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=561 }
+2012-01-20 17:06:59.6839|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Little L to player on separate thread...
+2012-01-20 17:06:59.6839|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:06:59.9489|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2165~Jamiroquai - Little L [00:03:59]to player playlist
+2012-01-20 17:06:59.9489|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:06:59.9489|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2165~Jamiroquai - Little L.mp3
+2012-01-20 17:07:00.8350|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2037~Love x Love - Playback position: 00:00:01
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (169344)
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (81288648)
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:07:01.2740|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177154
+2012-01-20 17:07:05.1984|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:07:05.1984|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:07:05.2024|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:07:05.2024|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:07:05.2024|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:07:07.8067|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:07:07.8077|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:07:07.8077|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:07:07.8077|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:07:07.8077|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:07:10.9750|DEBUG|OpenStation.MainForm.timerUpdateSeconds_Tick|2037~Love x Love - Playback position: 00:04:27
+2012-01-20 17:07:11.6571|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306238 Channel = -1342177166 Data = 0 User = 1
+2012-01-20 17:07:11.6571|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:07:11.6571|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:07:11.6571|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:07:11.6571|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2196~Onda Geox jingle 06 - 
+2012-01-20 17:07:11.6611|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2196~Onda Geox jingle 06 [00:00:06]
+2012-01-20 17:07:11.6611|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2196~Onda Geox jingle 06 [00:00:06]
+2012-01-20 17:07:11.6611|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:07:11.6611|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2196~Onda Geox jingle 06
+2012-01-20 17:07:11.6611|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 91728
+2012-01-20 17:07:11.6611|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 1615824
+2012-01-20 17:07:11.6611|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:07:11.6611|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:07:11.6611|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=564)
+2012-01-20 17:07:11.6781|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 06 to Green background
+2012-01-20 17:07:11.6781|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Little L to Yellow background
+2012-01-20 17:07:11.6781|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 17:07:11.6781|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=562 }
+2012-01-20 17:07:11.6781|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Onda Geox jingle 07 to player on separate thread...
+2012-01-20 17:07:11.6781|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:07:11.6781|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2197~Onda Geox jingle 07 [00:00:06]to player playlist
+2012-01-20 17:07:11.6781|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:07:11.6781|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2197~Onda Geox jingle 07.mp3
+2012-01-20 17:07:11.7311|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:07:11.7311|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:07:11.7311|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (91728)
+2012-01-20 17:07:11.7311|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (1615824)
+2012-01-20 17:07:11.7311|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:07:11.7311|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:07:11.7311|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:07:11.7311|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:07:11.7391|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:07:11.7391|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:07:11.7391|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:07:11.7391|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:07:11.7391|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177148
+2012-01-20 17:07:15.9775|DEBUG|OpenStation.MainForm.OnTrackSync|Handle = -805306245 Channel = -1342177160 Data = 0 User = 1
+2012-01-20 17:07:15.9775|DEBUG|OpenStation.MainForm.OnTrackSync|Called a sync on track position
+2012-01-20 17:07:15.9775|DEBUG|OpenStation.MainForm.<OnTrackSync>b__3|Calling PlayTrack...
+2012-01-20 17:07:15.9775|DEBUG|OpenStation.MainForm.PlayTrack|Getting next track to play
+2012-01-20 17:07:15.9775|DEBUG|OpenStation.MainForm.PlayTrack|START PLAYING: 2165~Jamiroquai - Little L - 
+2012-01-20 17:07:15.9835|DEBUG|OpenStation.MainForm.PlayTrack|Calling SetCurrentTrackWaveForm on 2165~Jamiroquai - Little L [00:03:59]
+2012-01-20 17:07:15.9835|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Getting waveform for 2165~Jamiroquai - Little L [00:03:59]
+2012-01-20 17:07:15.9835|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Rendering the wave form
+2012-01-20 17:07:15.9835|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Syncing UI Waveform to currentTrack channel - 2165~Jamiroquai - Little L
+2012-01-20 17:07:15.9835|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Start marker at position 169344
+2012-01-20 17:07:15.9835|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|UI Waveform: adding Next marker at position 81288648
+2012-01-20 17:07:15.9835|DEBUG|OpenStation.MainForm.SetCurrentTrackWaveForm|Drawing Waveform
+2012-01-20 17:07:16.0105|DEBUG|OpenStation.MainForm.PlayTrack|Calling UpdateSchedule...
+2012-01-20 17:07:16.0105|DEBUG|OpenStation.MainForm.UpdateSchedule|Finding ScheduleItem from CurrentTrack.ScheduleID (=565)
+2012-01-20 17:07:16.0105|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Little L to Green background
+2012-01-20 17:07:16.0145|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Onda Geox jingle 07 to Yellow background
+2012-01-20 17:07:16.0145|DEBUG|OpenStation.MainForm.UpdateSchedule|Coloring Row Moondance to Yellow background
+2012-01-20 17:07:16.0145|DEBUG|OpenStation.MainForm.UpdateSchedule|Uncoloring Row DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=563 }
+2012-01-20 17:07:16.0145|DEBUG|OpenStation.MainForm.AddToPlayerAsync|Adding ScheduleItem Moondance to player on separate thread...
+2012-01-20 17:07:16.0145|DEBUG|OpenStation.MainForm.StopPreviousTrack|Bass ChannelSlideAttribute: Fading out and stopping the 'previous' track (for 2 seconds)
+2012-01-20 17:07:16.2835|DEBUG|OpenStation.MainForm.AddToPlayer|Adding track 2044~Moondance [00:04:13]to player playlist
+2012-01-20 17:07:16.2835|DEBUG|OpenStation.MainForm.AddToPlayer|Bass StreamAddChannel: adding the track to the mixer in PAUSED mode, downmix to stereo, auto free the stream resource when ended
+2012-01-20 17:07:16.2835|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Rendering waveform for \\support02\Users\Public\ZettaFolder\Media\2\2044~Moondance.mp3
+2012-01-20 17:07:17.7037|DEBUG|OpenStation.MainForm.Simple_Closing|Closing Bass
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Synchronizing waveform position with playback channel
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Bass GetCuePoints on current waveform: calculating Start and Mix point using default Db thresholds: -24.0 on start, -12.0 on end
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Start position (137592)
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Next Track position (85892688)
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Calling SetTrackToPosition - Set start at calculated start position
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: locking mixer
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetPosition: setting mixer or channel to the given position
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackToPosition|Calculating mixer position from source position
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass Mixer ChannelSetEnvelopePos: calculating envelope (it's a part of the playback volume)
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackToPosition|Bass ChannelLock: unlocking mixer
+2012-01-20 17:07:17.7177|DEBUG|OpenStation.MainForm.SetTrackCuePoints|Adding calculated Waveform to its own Track...
+2012-01-20 17:07:17.7307|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|Bass Mixer ChannelSetSync: setting a sync on next track position, calling TrackSync() method when it happens
+2012-01-20 17:07:17.7307|DEBUG|OpenStation.MainForm.SyncTrackWithMixer|ChannelSetSync Channel = -1342177143
+2012-01-20 17:07:17.7307|DEBUG|OpenStation.MainForm.MainForm_FormClosing|Quitting OpenPlayout
