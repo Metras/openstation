@@ -1,0 +1,12 @@
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\obj\Release\ResolveAssemblyReference.cache
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\obj\Release\OpenStation.MainForm.resources
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\obj\Release\GenerateResource.read.1.tlog
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\obj\Release\GenerateResource.write.1.tlog
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\bin\Release\bass.dll
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\bin\Release\bassmix.dll
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\bin\Release\FileHelpers.dll
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\bin\Release\FileHelpers.ExcelStorage.dll
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\bin\Release\OpenStation.exe
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\bin\Release\Bass.Net.dll
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\bin\Release\Bass.Net.xml
+C:\Dropbox\Visual Studio 2010\Projects\OpenStation\obj\Release\OpenStation.exe
