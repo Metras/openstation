@@ -1,0 +1,1 @@
+OpenStation was born for Radio enthusiastics who want a professional approach to Radio Broadcasting. Not just "doing radio" but "serving audience". OpenStation has been inspired by leading software for Radio Broadcasting but it's free and open for everyone.
